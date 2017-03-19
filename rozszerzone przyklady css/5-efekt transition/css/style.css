@@ -1,0 +1,55 @@
+/*.square {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+       
+    transition: background-color all .5s ease-in;
+    width 1s linear;
+}
+.square:hover {
+    background-color: blue;
+    width: 400px;
+}
+img {
+    height:100px;
+    transition:all .s;
+}*/
+
+
+.box1, .box2, .box3 {
+    height: 200px;
+    width: 200px; 
+     margin: auto;
+    top:20px;
+    margin:auto
+    transition: .5s ease-in;
+    padding: 10px;
+    
+    
+}
+.square:hover {
+    background-color: blue;
+    width: 400px;
+}
+.box1 {
+    background-color: red;
+}
+.box1:hover {
+    width:300px;
+    
+}
+.box2 {
+    background-color: blue;
+}
+.box2:hover {
+   height:300px;
+   
+}
+.box3 {
+    background-color: green;
+}
+.box3:hover {
+    height:300px;
+    width:300px;
+    
+}

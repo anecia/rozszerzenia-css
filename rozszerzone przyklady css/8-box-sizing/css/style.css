@@ -1,0 +1,21 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.col1-2 {
+    width: 50%;
+    float:left;
+    padding:10px;
+    
+    border:20px solid black;    
+}
+.col1-2:first-child {
+    background-color:yellow;
+}
+.col1-2:last-child {
+    background-color:darksalmon;
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+.col1-4 {
+    width: 25%;
+    float: left;
+    border: 3px solid red;
+    padding: 15px;
+}
+.col1-4:nth-child(odd) {
+    background-color: antiquewhite;
+}
+@media (max-width: 768px) {
+    .col1-4 {
+        width:50%;
+    }
+}
+@media (max-width: 480px) {
+    .col1-4 {
+        width:100%;
+    }
+}

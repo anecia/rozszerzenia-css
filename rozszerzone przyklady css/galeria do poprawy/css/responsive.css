@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+
+.figure {
+    width: 25%;
+    float: left;
+     padding: 15px;
+}
+@media (max-width: 768px) {
+    figure
+        width:50%;
+    }
+}
+@media (max-width: 480px) {
+   figure
+        width:100%;
+    }
+}
